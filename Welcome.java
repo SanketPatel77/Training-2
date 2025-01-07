@@ -9,5 +9,12 @@ class Welcome {
         a = b;
         b = temp;
         System.out.println(a + " " + b);
+
+        // array printing code
+
+        int[] arr = { 1, 2, 3, 4, 5, 6 };
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
     }
 }
